@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: radial-gradient( circle farthest-corner,  rgba(97,186,255,1) 0%, rgba(166,239,253,1) 90.1% );
+}
+/* Navbar related css */
+
+#links {
+  background-color: rgba(0, 0, 0, 0.153);;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1%;
+}
+
+#links > div {
+  display: flex;
+  list-style: none;
+}
+#links a {
+  text-decoration: none;
+  color: rgb(4, 76, 76);
+  font-size: 30px;
+}
+
+table,
+td,
+th {
+  border: 1px solid black;
+  text-align: left;
+  border-radius: 7px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 70%;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 7px;
+}
+
+th,
+td {
+  padding: 15px;
+}
+
+tr > th {
+  background-color: rgba(255, 255, 255, 0.548);
+  color: black;
+  
+}

@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: radial-gradient( circle farthest-corner,  rgba(97,186,255,1) 0%, rgba(166,239,253,1) 90.1% );
+  
+}
+/* Navbar related css */
+
+#links {
+  background-color: rgba(0, 0, 0, 0.153);
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1%;
+  /* box-shadow: 2px 2px 5px 5px rgb(235, 235, 235); */
+  margin-bottom: 100px
+}
+
+#links > div {
+  display: flex;
+  list-style: none;
+}
+#links a {
+  text-decoration: none;
+  color: rgb(4, 76, 76);
+  font-size: 30px;
+}
+#submit {
+  width: 70%;
+  margin: auto;
+  background-color: rgb(80, 143, 191);
+  color: white;
+  border: none;
+  border-radius: 15px;
+}
+/* Navbar related css */
+
+/* Form related css */
+
+input,
+select {
+  display: block;
+  margin: 15px 0px;
+  font-size: 20px;
+  padding: 2%;
+  border-radius: 8px;
+}
+input:hover{
+  background-color: lightblue;
+}
+select:hover{
+  background-color: lightblue;
+}
+option {
+  font-size: 20px;
+}
+form {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh5BHRAd_R0V8MjYY274jOImF7FZ8Oknzqbg&usqp=CAU);
+  width: 400px;
+  /* border: 1px solid rgb(230, 230, 230); */
+  margin: 3% auto;
+  padding: 3%;
+  /* background: white; */
+  border-radius: 10px;
+}
+
+
+
+/* Form related css */
